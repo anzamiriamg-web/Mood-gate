@@ -1,0 +1,71 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #dfe9f3, #ffffff);
+  text-align: center;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+.card {
+  width: 65%;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.chat-box {
+  height: 300px;
+  overflow-y: auto;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f9fafc;
+  border: 1px solid #ddd;
+}
+
+.message {
+  margin: 10px;
+  padding: 12px;
+  border-radius: 12px;
+  max-width: 70%;
+}
+
+.user1 {
+  background: #d1e7ff;
+}
+
+.user2 {
+  background: #d4edda;
+  margin-left: auto;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #43a047;
+}
+
+select, input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+
+.suggestions button {
+  background: #2196F3;
+}
